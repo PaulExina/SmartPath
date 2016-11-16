@@ -1,0 +1,312 @@
+/* CSS Document */
+
+/* Custom Styling to Navbar */
+
+.navbar-wrapper {
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    
+}
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+
+.navbar-collapse .collapse .in{
+    position: absolute;
+}
+
+
+.right-inner-addon {
+    position: relative;
+    top: 8px;
+    right: 1px;
+    height: 3px;
+}
+
+.right-inner-addon input {
+    padding-right: 30px;
+}
+
+.right-inner-addon i{
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.bs-docs-nav {
+    margin-bottom: 0;
+    background-color: #222222;
+    border-bottom: 0;
+    height: 53px;
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+    border-radius: 0;
+}
+
+#connexion{
+    background-color: #000;
+    border-color: #000;
+    font color: white;
+    position: relative;
+    height : 40px;
+    width: 120px;
+    box-shadow: 3px 3px 1px #888888;
+}
+
+.modal-header{
+    background-color: #222222;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/* Custom Styling to Carousel*/
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel .item{
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top:0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+.carousel-caption > p > a {
+    background-color: #000;
+    border: #000;
+}
+
+
+
+/* Custom Styling to Content*/
+
+body {
+    
+    padding-bottom: 40px;
+    color: #5a5a5a;
+    
+}
+
+/*  Custom Styling to Featurettes */
+.feature .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature h2 {
+    font-weight: normal;
+    color: #000;
+}
+
+.feature .col-lg-4 p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Custom Stylingg to Form's Featurettes*/
+
+.form-feature .btn{
+    background-color: #000;
+    border: #000;
+    position: absolute;
+    box-shadow: 3px 3px 1px #888888;
+    
+}
+
+/*Custom by ID*/
+
+#criteria {
+    background-color: #000;
+    border-color: #000;
+    position: relative;
+    height : 60px;
+    width: 180px;
+    box-shadow: 3px 3px 1px #888888;
+}
+
+
+
+#criter .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#criter .col-lg-4 p{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+    
+        
+#map-container{
+    position: relative;
+    padding-bottom: 60%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    
+    }
+
+  
+#criter{
+    display: none;
+}
+#euro{
+    border-color: black:
+}
+
+#dep{
+    display: none;
+}
+
+.container .caret{
+    color:black;
+}
+
+
+
+#comparator{
+    display: none;
+}
+
+#first{
+    background-color: white;
+    text-align: right;
+    height: 60px;
+}
+
+#sec{   
+    background-color: white;
+    text-align: right;
+    height: 60px;
+}
+
+#third{
+    background-color: white;
+    text-align: right;
+    height: 60px;
+}
+
+#fourth{
+    background-color: white;
+    text-align: right;
+    height: 60px;
+}
+
+#fifth{
+    background-color: white;
+    text-align: right;
+    height: 60px;
+}
+
+#img-fifth{
+    height: 25px;
+    width: 25px;
+}
+
+#listed_instructions_first{
+    height: 200px;
+    overflow-y:scroll;
+    display:none;
+}
+
+#listed_instructions_sec{
+    height: 200px;
+    overflow-y:scroll;
+    display:none;
+}
+
+#listed_instructions_third{
+    height: 200px;
+    overflow-y:scroll;
+    display:none;
+}
+
+#listed_instructions_fourth{
+    height: 200px;
+    overflow-y:scroll;
+    display:none;
+}
+
+#listed_instructions_fifth{
+    height: 200px;
+    overflow-y:scroll;
+    display:none;
+}
+
+#miles{
+    height: 46px;
+    width: 44px;
+}
+
+#badge{
+    float: none;
+    
+}
+
+/* Responsive CSS */
+
+@media (min-width: 200px){
+    .navbar-wrapper{
+        margin-top: 20px;
+    }
+    
+    .navbar-wraper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .navbar-wraper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .navbar-wraper .navbar {
+        border-radius: 4px;   
+    }
+    
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+  
+    #map{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+    }
+}
